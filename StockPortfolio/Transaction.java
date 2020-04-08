@@ -24,6 +24,6 @@ class Transaction
   @Override
   public String toString()
   {
-    return (buySell + "\nCompany: " + company + "\nAmount: " + amount + "\nTimestamp: " + timestamp);
+    return ("\n" + buySell + "\nCompany: " + company + "\nAmount: " + amount + "\nTimestamp: " + timestamp);
   }
 }
